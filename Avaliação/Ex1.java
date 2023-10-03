@@ -46,36 +46,36 @@ public class Ex1 {
 
                 case 'A':
                 case 'a':
-                System.out.println("A. (X) Apenas I e III");
-                System.out.println("### Alternativa correta ###");
+                System.out.println("\nA. (X) Apenas I e III");
+                System.out.println("\n### Alternativa correta ###\n");
                 break;
 
                 case 'B':
                 case 'b':
-                System.out.println("B. (X) Apenas II");
-                System.out.println("Sua resposta está errada!");
-                System.out.println("### Alternativa correta - (A) Apenas I e III ###");
+                System.out.println("\nB. (X) Apenas II");
+                System.out.println("Sua resposta está errada!\n");
+                System.out.println("### Alternativa correta - (A) Apenas I e III ###\n");
                 break;
 
                 case 'C':
                 case 'c':
-                System.out.println("C. (X) Apenas III");
-                System.out.println("Sua resposta está errada!");
-                System.out.println("### Alternativa correta - (A) Apenas I e III ###");
+                System.out.println("\nC. (X) Apenas III");
+                System.out.println("Sua resposta está errada!\n");
+                System.out.println("### Alternativa correta - (A) Apenas I e III ###\n");
                 break;
 
                 case 'D':
                 case 'd':
-                System.out.println("D. (X) Apenas I");
-                System.out.println("Sua resposta está errada!");
-                System.out.println("### Alternativa correta - (A) Apenas I e III ###");
+                System.out.println("\nD. (X) Apenas I");
+                System.out.println("\nSua resposta está errada!\n");
+                System.out.println("### Alternativa correta - (A) Apenas I e III ###\n");
                 break;
 
                 case 'E':
                 case 'e':
-                System.out.println("E. (X) I, II e III");
-                System.out.println("Sua resposta está errada!");
-                System.out.println("### Alternativa correta - (A) Apenas I e III ###");
+                System.out.println("\nE. (X) I, II e III");
+                System.out.println("Sua resposta está errada!\n");
+                System.out.println("### Alternativa correta - (A) Apenas I e III ###\n");
                 break;
             }
         }
