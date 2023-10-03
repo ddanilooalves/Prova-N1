@@ -29,16 +29,16 @@ public class Ex4 {
             int qntalunos = 0, alunoReprovado = 0, alunoExame = 0, alunoAprovado = 0;
 
             do {
-                System.out.println("Caro aluno, informe seu nome: ");
+                System.out.print("\nCaro aluno, informe seu nome: ");
                 name = sc.next();
 
                 do {
-                System.out.println("\n" + name + " informe sua nota 1: ");
+                System.out.print("\n" + name + " informe sua nota 1: ");
                 n1 = sc.nextDouble();
                 } while (n1 < 0.0 || n1 > 10.0);
 
                 do {
-                System.out.println("Agora informe sua nota 2:");
+                System.out.print("Agora informe sua nota 2:");
                 n2 = sc.nextDouble();
                 } while (n2 < 0.0 || n2 > 10.0);
 
@@ -70,22 +70,21 @@ public class Ex4 {
                 }
                 
                 
-                System.out.println("Continuar preenchendo a lista dos alunos (s ou n)? ");
+                System.out.print("Continuar preenchendo a lista dos alunos (s ou n)? ");
                 resp = sc.next().charAt(0);
-                System.out.println("\n");
 
                 sc.nextLine();
             } while (resp == 's');
 
             mediaSomaMedia = somaMedia / qntalunos;
 
-            System.out.println("### O total de alunos da sala é de: " + qntalunos + " alunos(as) ###");
+            System.out.println("\n### O total de alunos da sala é de: " + qntalunos + " alunos(as) ###");
             System.out.println("### Quantidade de alunos APROVADOS: " + alunoAprovado + " ###");
             System.out.println("### Quantidade de alunos REPROVADOS: " + alunoReprovado + " ###");
             System.out.println("### Quantidade de aunos de EXAME: " + alunoExame + " ###");
             System.out.println("### Média da sala: " + mediaSomaMedia + " ###");
-            System.out.println("### " + maiorName + " é o aluno com maior média da sala, com: " + mediaMaior + " ###");
-            System.out.println("### " + menorName + " é o aluno com menor média da sala, com: " + mediaMenor + " ###");
+            System.out.println("### " + maiorName + " é o(a) aluno(a) com maior média da sala, com: " + mediaMaior + " ###");
+            System.out.println("### " + menorName + " é o(a) aluno(a) com menor média da sala, com: " + mediaMenor + " ###");
         }
     }
     
